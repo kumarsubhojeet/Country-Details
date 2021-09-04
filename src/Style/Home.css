@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home_main{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header{
+    width: 100%;
+    background-image: url('../SVG/Fade-In-Background.svg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height:400px;
+}
+.header h1{
+    padding-top:10rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 980px) {
+    .header{
+        width: 100%;
+        background-image: url('../SVG/Fade-In-Background.svg');
+        background-repeat:no-repeat;
+        background-size: cover;
+        min-height:300px
+    }
+    .header h1{
+        padding-top:8rem;
+    }
+  }
