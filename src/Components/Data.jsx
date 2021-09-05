@@ -17,7 +17,7 @@ export default function Data(props) {
                             <div className="col-md-4">
                           
                           <div className="card"
-                          data-toggle="modal" data-target=".bd-example-modal-lg"
+                          data-toggle="modal" data-target=".bd-example-modal-xl"
                           onClick={async function(){
                               try {
                                   const res = await axios.get(`https://restcountries.eu/rest/v2/name/${cont.name}?fullText=true`)

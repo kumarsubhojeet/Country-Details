@@ -22,7 +22,11 @@
     color: #fff;
     font-weight: 600;
 }
-
+.select_bar{
+    margin: 0 auto;
+    text-align: center;
+    width:30%;
+}
 
 @media screen and (max-width: 980px) {
     .header{
@@ -35,4 +39,10 @@
     .header h1{
         padding-top:8rem;
     }
+    .select_bar{
+        margin: 0 auto;
+        text-align: center;
+        width:60%;
+    }
+    
   }
